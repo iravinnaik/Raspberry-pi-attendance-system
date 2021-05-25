@@ -12,7 +12,7 @@ from openpyxl import load_workbook
 import datetime
 #import schedule
 import time
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 from time import sleep
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -28,7 +28,7 @@ import openpyxl
 
 
 # initialise fingerprint module
-#f = PyFingerprint('/dev/tty.usbserial-A50285BI', 57600, 0xFFFFFFFF, 0x00000000)
+f = PyFingerprint('/dev/tty.usbserial', 57600, 0xFFFFFFFF, 0x00000000)
 #nameLIST = ["AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA","AAAA",]
 #for i in range(0,99):
 namedict = {}    
