@@ -144,10 +144,10 @@ def convert():
 def email():
     try:
             file = 'Attendancereport.xlsx' 
-            username='attendance.a3t@gmail.com'
-            password='vinoda3t'
-            send_from = 'attendance.a3t@gmail.com'
-            send_to = 'ravinnaik56@gmail.com'
+            username='@gmail.com'
+            password=''
+            send_from = '@gmail.com'
+            send_to = '@gmail.com'
             Cc = ''
             msg = MIMEMultipart()
             msg['From'] = send_from
